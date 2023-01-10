@@ -1,9 +1,6 @@
-//
-//  DetailEditView.swift
-//  Scrumdinger
-//
-//  Created by JAEHYUN KIM on 2023/01/10.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+*/
 
 import SwiftUI
 
@@ -13,13 +10,14 @@ struct DetailEditView: View {
     
     var body: some View {
         Form {
-            Section(header: Text("Metting Info")) {
+            Section(header: Text("Meeting Info")) {
                 TextField("Title", text: $data.title)
                 HStack {
                     Slider(value: $data.lengthInMinutes, in: 5...30, step: 1) {
                         Text("Length")
                     }
                     .accessibilityValue("\(Int(data.lengthInMinutes)) minutes")
+                    Spacer()
                     Text("\(Int(data.lengthInMinutes)) minutes")
                         .accessibilityHidden(true)
                 }

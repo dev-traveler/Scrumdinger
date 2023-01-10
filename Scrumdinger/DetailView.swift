@@ -1,9 +1,6 @@
-//
-//  DetailView.swift
-//  Scrumdinger
-//
-//  Created by JAEHYUN KIM on 2023/01/09.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+*/
 
 import SwiftUI
 
@@ -15,7 +12,7 @@ struct DetailView: View {
     var body: some View {
         List {
             Section(header: Text("Meeting Info")) {
-                NavigationLink(destination: DetailView(scrum: scrum)) {
+                NavigationLink(destination: MeetingView()) {
                     Label("Start Meeting", systemImage: "timer")
                         .font(.headline)
                         .foregroundColor(.accentColor)

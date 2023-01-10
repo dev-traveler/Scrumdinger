@@ -1,9 +1,6 @@
-//
-//  ScrumsView.swift
-//  Scrumdinger
-//
-//  Created by JAEHYUN KIM on 2023/01/09.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+*/
 
 import SwiftUI
 
@@ -31,8 +28,9 @@ struct ScrumsView: View {
 
 struct ScrumsView_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationView{
+        NavigationView {
             ScrumsView(scrums: DailyScrum.sampleData)
         }
     }
 }
+
