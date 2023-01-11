@@ -1,9 +1,6 @@
-//
-//  MeetingFooterView.swift
-//  Scrumdinger
-//
-//  Created by JAEHYUN KIM on 2023/01/11.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+*/
 
 import SwiftUI
 
@@ -22,6 +19,7 @@ struct MeetingFooterView: View {
         guard let speakerNumber = speakerNumber else { return "No more speakers" }
         return "Speaker \(speakerNumber) of \(speakers.count)"
     }
+    
     var body: some View {
         VStack {
             HStack {
@@ -31,7 +29,7 @@ struct MeetingFooterView: View {
                     Text(speakerText)
                     Spacer()
                     Button(action: skipAction) {
-                        Image(systemName:"forward.fill")
+                        Image(systemName: "forward.fill")
                     }
                     .accessibilityLabel("Next speaker")
                 }
