@@ -1,3 +1,7 @@
+/*
+See LICENSE folder for this sample’s licensing information.
+*/
+
 import Foundation
 
 struct History: Identifiable {
@@ -5,8 +9,7 @@ struct History: Identifiable {
     let date: Date
     var attendees: [DailyScrum.Attendee]
     var lengthInMinutes: Int
-    
-    
+
     init(id: UUID = UUID(), date: Date = Date(), attendees: [DailyScrum.Attendee], lengthInMinutes: Int = 5) {
         self.id = id
         self.date = date
