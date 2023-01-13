@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EAF5D0B2971439B00596B0D /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAF5D0A2971439B00596B0D /* ErrorWrapper.swift */; };
 		7CB413DF26EA824100544BA7 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB413DE26EA824100544BA7 /* ScrumdingerApp.swift */; };
 		7CB413E126EA824100544BA7 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB413E026EA824100544BA7 /* MeetingView.swift */; };
 		7CB413E326EA824300544BA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB413E226EA824300544BA7 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1EAF5D0A2971439B00596B0D /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
 		7CB413DB26EA824100544BA7 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CB413DE26EA824100544BA7 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		7CB413E026EA824100544BA7 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				7CC9776926F39C00006053BE /* ScrumStore.swift */,
 				7CB4140426EBF6F900544BA7 /* ScrumTimer.swift */,
 				7CB413F026EA97C500544BA7 /* Theme.swift */,
+				1EAF5D0A2971439B00596B0D /* ErrorWrapper.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				7CB4141026EC03DD00544BA7 /* MeetingFooterView.swift in Sources */,
 				7CB413F726EAC76E00544BA7 /* TrailingIconLabelStyle.swift in Sources */,
 				7CB413F126EA97C500544BA7 /* Theme.swift in Sources */,
+				1EAF5D0B2971439B00596B0D /* ErrorWrapper.swift in Sources */,
 				7CB413F926EB9A1A00544BA7 /* ScrumsView.swift in Sources */,
 				7CB413E126EA824100544BA7 /* MeetingView.swift in Sources */,
 				7CB4140E26EBFDCC00544BA7 /* MeetingHeaderView.swift in Sources */,
