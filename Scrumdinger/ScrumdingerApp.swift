@@ -23,10 +23,10 @@ struct ScrumdingerApp: App {
             }
             .task {
                 do {
-                     store.scrums = try await ScrumStore.load()
-                 } catch {
-                     fatalError("Error loading scrums.")
-                 }
+                    store.scrums = try await ScrumStore.load()
+                } catch {
+                    fatalError("Error loading scrums.")
+                }
             }
         }
     }
