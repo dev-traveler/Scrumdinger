@@ -1,7 +1,12 @@
+/*
+See LICENSE folder for this sample’s licensing information.
+*/
+
 import SwiftUI
 
 struct ErrorView: View {
     let errorWrapper: ErrorWrapper
+    
     @Environment(\.dismiss) private var dismiss
     
     var body: some View {
