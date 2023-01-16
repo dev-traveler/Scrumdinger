@@ -17,15 +17,15 @@ struct ErrorView: View {
                     .padding(.top)
                 Spacer()
             }
-        }
-        .padding()
-        .background(.ultraThinMaterial)
-        .cornerRadius(16)
-        .navigationBarTitleDisplayMode(.inline)
-        .toolbar {
-            ToolbarItem(placement: .navigationBarTrailing) {
-                Button("Dismiss") {
-                    dismiss()
+            .padding()
+            .background(.ultraThinMaterial)
+            .cornerRadius(16)
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button("Dismiss") {
+                        dismiss()
+                    }
                 }
             }
         }
